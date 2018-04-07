@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_homework"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;CMake Files\test\lib\;CMake Files\test\lib\googletest\;CMake Files\test\lib\googletest\googletest\;CMake Files\test\lib\googletest\googletest\cmake\;CMake Files\test\homework_tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homework_run">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/homework_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denis/CLionProjects/c_homework/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 homework_run"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homework_run/fast">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/homework_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denis/CLionProjects/c_homework/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 homework_run/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src.so">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/src/libsrc.so.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denis/CLionProjects/c_homework/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 src.so"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src.so/fast">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/src/libsrc.so.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denis/CLionProjects/c_homework/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 src.so/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/include"/>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/include"/>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/include"/>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/include"/>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicTests">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/runBasicTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/include"/>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/include"/>
+					<Add directory="/home/denis/CLionProjects/c_homework/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/Makefile&quot;  VERBOSE=1 runBasicTests"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runBasicTests/fast">
+				<Option output="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/runBasicTests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/include"/>
+					<Add directory="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/include"/>
+					<Add directory="/home/denis/CLionProjects/c_homework/src"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/Makefile&quot;  VERBOSE=1 runBasicTests/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/denis/CLionProjects/c_homework/main.c">
+			<Option target="homework_run"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/array_stuff/array_stuff.c">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/array_stuff/array_stuff.h">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/game/game.c">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/game/game.h">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/nextSmallest&amp;prevBiggest/prevBiggestAndNextSmallest.c">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/nextSmallest&amp;prevBiggest/prevBiggestAndNextSmallest.h">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/stack/stack.c">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/stack/stack.h">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/unique_chars/unique_chars.c">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/unique_chars/unique_chars.h">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/util/vector.c">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/util/vector.h">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/xor/xor.c">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/xor/xor.h">
+			<Option target="src.so"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/array_stuff_tests.cpp">
+			<Option target="runBasicTests"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/game_tests.cpp">
+			<Option target="runBasicTests"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/main.cpp">
+			<Option target="runBasicTests"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/stack_tests.cpp">
+			<Option target="runBasicTests"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/unique_chars_tests.cpp">
+			<Option target="runBasicTests"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/xor_tests.cpp">
+			<Option target="runBasicTests"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\lib\googletest\googletest\"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/lib/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\test\lib\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\homework_tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

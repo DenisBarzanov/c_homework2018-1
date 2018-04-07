@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -std=c11 -g   CMakeFiles/homework_run.dir/main.c.o  -o homework_run src/libsrc.so.a 
