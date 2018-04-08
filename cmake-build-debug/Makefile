@@ -124,17 +124,17 @@ homework_run/fast:
 .PHONY : homework_run/fast
 
 #=============================================================================
-# Target rules for targets named src.so
+# Target rules for targets named source
 
 # Build rule for target.
-src.so: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 src.so
-.PHONY : src.so
+source: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 source
+.PHONY : source
 
 # fast build rule for target.
-src.so/fast:
-	$(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/build
-.PHONY : src.so/fast
+source/fast:
+	$(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/build
+.PHONY : source/fast
 
 #=============================================================================
 # Target rules for targets named gtest_main
@@ -211,7 +211,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... homework_run"
-	@echo "... src.so"
+	@echo "... source"
 	@echo "... gtest_main"
 	@echo "... gtest"
 	@echo "... runBasicTests"

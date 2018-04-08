@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/denis/CLionProjects/c_homework/cmake-build-debug
 # Target rules for target CMakeFiles/homework_run.dir
 
 # All Build rule for target.
-CMakeFiles/homework_run.dir/all: src/CMakeFiles/src.so.dir/all
+CMakeFiles/homework_run.dir/all:
 	$(MAKE) -f CMakeFiles/homework_run.dir/build.make CMakeFiles/homework_run.dir/depend
 	$(MAKE) -f CMakeFiles/homework_run.dir/build.make CMakeFiles/homework_run.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target homework_run"
@@ -76,7 +76,7 @@ all: CMakeFiles/homework_run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/homework_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/homework_run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/homework_run.dir/rule
@@ -100,12 +100,12 @@ clean: CMakeFiles/homework_run.dir/clean
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
-src/all: src/CMakeFiles/src.so.dir/all
+src/all: src/CMakeFiles/source.dir/all
 
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
-src/clean: src/CMakeFiles/src.so.dir/clean
+src/clean: src/CMakeFiles/source.dir/clean
 
 .PHONY : src/clean
 
@@ -115,39 +115,39 @@ src/preinstall:
 .PHONY : src/preinstall
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/src.so.dir
+# Target rules for target src/CMakeFiles/source.dir
 
 # All Build rule for target.
-src/CMakeFiles/src.so.dir/all:
-	$(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/depend
-	$(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=14,15,16,17,18,19,20,21 "Built target src.so"
-.PHONY : src/CMakeFiles/src.so.dir/all
+src/CMakeFiles/source.dir/all:
+	$(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/depend
+	$(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19,20,21,22 "Built target source"
+.PHONY : src/CMakeFiles/source.dir/all
 
 # Include target in all.
-all: src/CMakeFiles/src.so.dir/all
+all: src/CMakeFiles/source.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/src.so.dir/rule: cmake_check_build_system
+src/CMakeFiles/source.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/src.so.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/source.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles 0
-.PHONY : src/CMakeFiles/src.so.dir/rule
+.PHONY : src/CMakeFiles/source.dir/rule
 
 # Convenience name for target.
-src.so: src/CMakeFiles/src.so.dir/rule
+source: src/CMakeFiles/source.dir/rule
 
-.PHONY : src.so
-
-# clean rule for target.
-src/CMakeFiles/src.so.dir/clean:
-	$(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/clean
-.PHONY : src/CMakeFiles/src.so.dir/clean
+.PHONY : source
 
 # clean rule for target.
-clean: src/CMakeFiles/src.so.dir/clean
+src/CMakeFiles/source.dir/clean:
+	$(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/clean
+.PHONY : src/CMakeFiles/source.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/source.dir/clean
 
 .PHONY : clean
 
@@ -288,12 +288,12 @@ test/homework_tests/preinstall:
 # Target rules for target test/homework_tests/CMakeFiles/runBasicTests.dir
 
 # All Build rule for target.
-test/homework_tests/CMakeFiles/runBasicTests.dir/all: src/CMakeFiles/src.so.dir/all
+test/homework_tests/CMakeFiles/runBasicTests.dir/all: src/CMakeFiles/source.dir/all
 test/homework_tests/CMakeFiles/runBasicTests.dir/all: test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/all
 test/homework_tests/CMakeFiles/runBasicTests.dir/all: test/lib/googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/homework_tests/CMakeFiles/runBasicTests.dir/build.make test/homework_tests/CMakeFiles/runBasicTests.dir/depend
 	$(MAKE) -f test/homework_tests/CMakeFiles/runBasicTests.dir/build.make test/homework_tests/CMakeFiles/runBasicTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11,12,13 "Built target runBasicTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11,12,13,14 "Built target runBasicTests"
 .PHONY : test/homework_tests/CMakeFiles/runBasicTests.dir/all
 
 # Include target in all.
@@ -303,7 +303,7 @@ all: test/homework_tests/CMakeFiles/runBasicTests.dir/all
 
 # Build rule for subdir invocation for target.
 test/homework_tests/CMakeFiles/runBasicTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles 20
 	$(MAKE) -f CMakeFiles/Makefile2 test/homework_tests/CMakeFiles/runBasicTests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles 0
 .PHONY : test/homework_tests/CMakeFiles/runBasicTests.dir/rule

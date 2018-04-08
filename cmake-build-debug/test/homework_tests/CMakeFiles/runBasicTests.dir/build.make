@@ -201,6 +201,30 @@ test/homework_tests/CMakeFiles/runBasicTests.dir/array_stuff_tests.cpp.o.provide
 test/homework_tests/CMakeFiles/runBasicTests.dir/array_stuff_tests.cpp.o.provides.build: test/homework_tests/CMakeFiles/runBasicTests.dir/array_stuff_tests.cpp.o
 
 
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: test/homework_tests/CMakeFiles/runBasicTests.dir/flags.make
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/homework_tests/prev_biggest_next_tmallest_tests\ .cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o"
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o -c "/home/denis/CLionProjects/c_homework/test/homework_tests/prev_biggest_next_tmallest_tests .cpp"
+
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.i"
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/denis/CLionProjects/c_homework/test/homework_tests/prev_biggest_next_tmallest_tests .cpp" > CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.i
+
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.s"
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/denis/CLionProjects/c_homework/test/homework_tests/prev_biggest_next_tmallest_tests .cpp" -o CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.s
+
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o.requires:
+
+.PHONY : test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o.requires
+
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o.provides: test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o.requires
+	$(MAKE) -f test/homework_tests/CMakeFiles/runBasicTests.dir/build.make test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o.provides.build
+.PHONY : test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o.provides
+
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o.provides.build: test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o
+
+
 # Object files for target runBasicTests
 runBasicTests_OBJECTS = \
 "CMakeFiles/runBasicTests.dir/game_tests.cpp.o" \
@@ -208,7 +232,8 @@ runBasicTests_OBJECTS = \
 "CMakeFiles/runBasicTests.dir/main.cpp.o" \
 "CMakeFiles/runBasicTests.dir/unique_chars_tests.cpp.o" \
 "CMakeFiles/runBasicTests.dir/stack_tests.cpp.o" \
-"CMakeFiles/runBasicTests.dir/array_stuff_tests.cpp.o"
+"CMakeFiles/runBasicTests.dir/array_stuff_tests.cpp.o" \
+"CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o"
 
 # External object files for target runBasicTests
 runBasicTests_EXTERNAL_OBJECTS =
@@ -219,13 +244,14 @@ test/homework_tests/runBasicTests: test/homework_tests/CMakeFiles/runBasicTests.
 test/homework_tests/runBasicTests: test/homework_tests/CMakeFiles/runBasicTests.dir/unique_chars_tests.cpp.o
 test/homework_tests/runBasicTests: test/homework_tests/CMakeFiles/runBasicTests.dir/stack_tests.cpp.o
 test/homework_tests/runBasicTests: test/homework_tests/CMakeFiles/runBasicTests.dir/array_stuff_tests.cpp.o
+test/homework_tests/runBasicTests: test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o
 test/homework_tests/runBasicTests: test/homework_tests/CMakeFiles/runBasicTests.dir/build.make
 test/homework_tests/runBasicTests: test/lib/googletest/googletest/libgtestd.a
 test/homework_tests/runBasicTests: test/lib/googletest/googletest/libgtest_maind.a
-test/homework_tests/runBasicTests: src/libsrc.so.a
+test/homework_tests/runBasicTests: src/libsource.a
 test/homework_tests/runBasicTests: test/lib/googletest/googletest/libgtestd.a
 test/homework_tests/runBasicTests: test/homework_tests/CMakeFiles/runBasicTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable runBasicTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable runBasicTests"
 	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/test/homework_tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runBasicTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -239,6 +265,7 @@ test/homework_tests/CMakeFiles/runBasicTests.dir/requires: test/homework_tests/C
 test/homework_tests/CMakeFiles/runBasicTests.dir/requires: test/homework_tests/CMakeFiles/runBasicTests.dir/unique_chars_tests.cpp.o.requires
 test/homework_tests/CMakeFiles/runBasicTests.dir/requires: test/homework_tests/CMakeFiles/runBasicTests.dir/stack_tests.cpp.o.requires
 test/homework_tests/CMakeFiles/runBasicTests.dir/requires: test/homework_tests/CMakeFiles/runBasicTests.dir/array_stuff_tests.cpp.o.requires
+test/homework_tests/CMakeFiles/runBasicTests.dir/requires: test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o.requires
 
 .PHONY : test/homework_tests/CMakeFiles/runBasicTests.dir/requires
 

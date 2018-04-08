@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/src.so.dir/rule:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/src.so.dir/rule
-.PHONY : src/CMakeFiles/src.so.dir/rule
+src/CMakeFiles/source.dir/rule:
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/source.dir/rule
+.PHONY : src/CMakeFiles/source.dir/rule
 
 # Convenience name for target.
-src.so: src/CMakeFiles/src.so.dir/rule
+source: src/CMakeFiles/source.dir/rule
 
-.PHONY : src.so
+.PHONY : source
 
 # fast build rule for target.
-src.so/fast:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/build
-.PHONY : src.so/fast
+source/fast:
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/build
+.PHONY : source/fast
 
 array_stuff/array_stuff.o: array_stuff/array_stuff.c.o
 
@@ -131,7 +131,7 @@ array_stuff/array_stuff.o: array_stuff/array_stuff.c.o
 
 # target to build an object file
 array_stuff/array_stuff.c.o:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/array_stuff/array_stuff.c.o
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/array_stuff/array_stuff.c.o
 .PHONY : array_stuff/array_stuff.c.o
 
 array_stuff/array_stuff.i: array_stuff/array_stuff.c.i
@@ -140,7 +140,7 @@ array_stuff/array_stuff.i: array_stuff/array_stuff.c.i
 
 # target to preprocess a source file
 array_stuff/array_stuff.c.i:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/array_stuff/array_stuff.c.i
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/array_stuff/array_stuff.c.i
 .PHONY : array_stuff/array_stuff.c.i
 
 array_stuff/array_stuff.s: array_stuff/array_stuff.c.s
@@ -149,7 +149,7 @@ array_stuff/array_stuff.s: array_stuff/array_stuff.c.s
 
 # target to generate assembly for a file
 array_stuff/array_stuff.c.s:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/array_stuff/array_stuff.c.s
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/array_stuff/array_stuff.c.s
 .PHONY : array_stuff/array_stuff.c.s
 
 game/game.o: game/game.c.o
@@ -158,7 +158,7 @@ game/game.o: game/game.c.o
 
 # target to build an object file
 game/game.c.o:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/game/game.c.o
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/game/game.c.o
 .PHONY : game/game.c.o
 
 game/game.i: game/game.c.i
@@ -167,7 +167,7 @@ game/game.i: game/game.c.i
 
 # target to preprocess a source file
 game/game.c.i:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/game/game.c.i
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/game/game.c.i
 .PHONY : game/game.c.i
 
 game/game.s: game/game.c.s
@@ -176,35 +176,35 @@ game/game.s: game/game.c.s
 
 # target to generate assembly for a file
 game/game.c.s:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/game/game.c.s
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/game/game.c.s
 .PHONY : game/game.c.s
 
-nextSmallest&prevBiggest/prevBiggestAndNextSmallest.o: nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o
+nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.o: nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o
 
-.PHONY : nextSmallest&prevBiggest/prevBiggestAndNextSmallest.o
+.PHONY : nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.o
 
 # target to build an object file
-nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make "src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o"
-.PHONY : nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o
+nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o:
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o
+.PHONY : nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o
 
-nextSmallest&prevBiggest/prevBiggestAndNextSmallest.i: nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.i
+nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.i: nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.i
 
-.PHONY : nextSmallest&prevBiggest/prevBiggestAndNextSmallest.i
+.PHONY : nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.i
 
 # target to preprocess a source file
-nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.i:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make "src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.i"
-.PHONY : nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.i
+nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.i:
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.i
+.PHONY : nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.i
 
-nextSmallest&prevBiggest/prevBiggestAndNextSmallest.s: nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.s
+nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.s: nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.s
 
-.PHONY : nextSmallest&prevBiggest/prevBiggestAndNextSmallest.s
+.PHONY : nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.s
 
 # target to generate assembly for a file
-nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.s:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make "src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.s"
-.PHONY : nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.s
+nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.s:
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.s
+.PHONY : nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.s
 
 stack/stack.o: stack/stack.c.o
 
@@ -212,7 +212,7 @@ stack/stack.o: stack/stack.c.o
 
 # target to build an object file
 stack/stack.c.o:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/stack/stack.c.o
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/stack/stack.c.o
 .PHONY : stack/stack.c.o
 
 stack/stack.i: stack/stack.c.i
@@ -221,7 +221,7 @@ stack/stack.i: stack/stack.c.i
 
 # target to preprocess a source file
 stack/stack.c.i:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/stack/stack.c.i
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/stack/stack.c.i
 .PHONY : stack/stack.c.i
 
 stack/stack.s: stack/stack.c.s
@@ -230,7 +230,7 @@ stack/stack.s: stack/stack.c.s
 
 # target to generate assembly for a file
 stack/stack.c.s:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/stack/stack.c.s
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/stack/stack.c.s
 .PHONY : stack/stack.c.s
 
 unique_chars/unique_chars.o: unique_chars/unique_chars.c.o
@@ -239,7 +239,7 @@ unique_chars/unique_chars.o: unique_chars/unique_chars.c.o
 
 # target to build an object file
 unique_chars/unique_chars.c.o:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/unique_chars/unique_chars.c.o
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/unique_chars/unique_chars.c.o
 .PHONY : unique_chars/unique_chars.c.o
 
 unique_chars/unique_chars.i: unique_chars/unique_chars.c.i
@@ -248,7 +248,7 @@ unique_chars/unique_chars.i: unique_chars/unique_chars.c.i
 
 # target to preprocess a source file
 unique_chars/unique_chars.c.i:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/unique_chars/unique_chars.c.i
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/unique_chars/unique_chars.c.i
 .PHONY : unique_chars/unique_chars.c.i
 
 unique_chars/unique_chars.s: unique_chars/unique_chars.c.s
@@ -257,7 +257,7 @@ unique_chars/unique_chars.s: unique_chars/unique_chars.c.s
 
 # target to generate assembly for a file
 unique_chars/unique_chars.c.s:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/unique_chars/unique_chars.c.s
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/unique_chars/unique_chars.c.s
 .PHONY : unique_chars/unique_chars.c.s
 
 util/vector.o: util/vector.c.o
@@ -266,7 +266,7 @@ util/vector.o: util/vector.c.o
 
 # target to build an object file
 util/vector.c.o:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/util/vector.c.o
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/util/vector.c.o
 .PHONY : util/vector.c.o
 
 util/vector.i: util/vector.c.i
@@ -275,7 +275,7 @@ util/vector.i: util/vector.c.i
 
 # target to preprocess a source file
 util/vector.c.i:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/util/vector.c.i
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/util/vector.c.i
 .PHONY : util/vector.c.i
 
 util/vector.s: util/vector.c.s
@@ -284,7 +284,7 @@ util/vector.s: util/vector.c.s
 
 # target to generate assembly for a file
 util/vector.c.s:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/util/vector.c.s
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/util/vector.c.s
 .PHONY : util/vector.c.s
 
 xor/xor.o: xor/xor.c.o
@@ -293,7 +293,7 @@ xor/xor.o: xor/xor.c.o
 
 # target to build an object file
 xor/xor.c.o:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/xor/xor.c.o
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/xor/xor.c.o
 .PHONY : xor/xor.c.o
 
 xor/xor.i: xor/xor.c.i
@@ -302,7 +302,7 @@ xor/xor.i: xor/xor.c.i
 
 # target to preprocess a source file
 xor/xor.c.i:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/xor/xor.c.i
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/xor/xor.c.i
 .PHONY : xor/xor.c.i
 
 xor/xor.s: xor/xor.c.s
@@ -311,7 +311,7 @@ xor/xor.s: xor/xor.c.s
 
 # target to generate assembly for a file
 xor/xor.c.s:
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/xor/xor.c.s
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f src/CMakeFiles/source.dir/build.make src/CMakeFiles/source.dir/xor/xor.c.s
 .PHONY : xor/xor.c.s
 
 # Help Target
@@ -322,16 +322,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... src.so"
+	@echo "... source"
 	@echo "... array_stuff/array_stuff.o"
 	@echo "... array_stuff/array_stuff.i"
 	@echo "... array_stuff/array_stuff.s"
 	@echo "... game/game.o"
 	@echo "... game/game.i"
 	@echo "... game/game.s"
-	@echo "... nextSmallest&prevBiggest/prevBiggestAndNextSmallest.o"
-	@echo "... nextSmallest&prevBiggest/prevBiggestAndNextSmallest.i"
-	@echo "... nextSmallest&prevBiggest/prevBiggestAndNextSmallest.s"
+	@echo "... nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.o"
+	@echo "... nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.i"
+	@echo "... nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.s"
 	@echo "... stack/stack.o"
 	@echo "... stack/stack.i"
 	@echo "... stack/stack.s"

@@ -8,8 +8,8 @@ src/CMakeFiles/src.so.dir/array_stuff/array_stuff.c.o: ../src/array_stuff/array_
 src/CMakeFiles/src.so.dir/game/game.c.o: ../src/game/game.c
 src/CMakeFiles/src.so.dir/game/game.c.o: ../src/game/game.h
 
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o: ../src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o: ../src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.h
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o: ../src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o: ../src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.h
 
 src/CMakeFiles/src.so.dir/stack/stack.c.o: ../src/stack/stack.c
 src/CMakeFiles/src.so.dir/stack/stack.c.o: ../src/stack/stack.h

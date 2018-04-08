@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/runBasicTests.dir/unique_chars_tests.cpp.o"
   "CMakeFiles/runBasicTests.dir/stack_tests.cpp.o"
   "CMakeFiles/runBasicTests.dir/array_stuff_tests.cpp.o"
+  "CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o"
   "runBasicTests.pdb"
   "runBasicTests"
 )

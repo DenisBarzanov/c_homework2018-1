@@ -3,7 +3,7 @@
 /home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles/homework_run.dir
 /home/denis/CLionProjects/c_homework/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
 /home/denis/CLionProjects/c_homework/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/denis/CLionProjects/c_homework/cmake-build-debug/src/CMakeFiles/src.so.dir
+/home/denis/CLionProjects/c_homework/cmake-build-debug/src/CMakeFiles/source.dir
 /home/denis/CLionProjects/c_homework/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
 /home/denis/CLionProjects/c_homework/cmake-build-debug/test/CMakeFiles/edit_cache.dir
 /home/denis/CLionProjects/c_homework/cmake-build-debug/test/lib/googletest/googletest/CMakeFiles/edit_cache.dir

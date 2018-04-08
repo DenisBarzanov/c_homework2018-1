@@ -206,6 +206,33 @@ main.cpp.s:
 	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f test/homework_tests/CMakeFiles/runBasicTests.dir/build.make test/homework_tests/CMakeFiles/runBasicTests.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+prev_biggest_next_tmallest_tests_.o: prev_biggest_next_tmallest_tests_.cpp.o
+
+.PHONY : prev_biggest_next_tmallest_tests_.o
+
+# target to build an object file
+prev_biggest_next_tmallest_tests_.cpp.o:
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f test/homework_tests/CMakeFiles/runBasicTests.dir/build.make test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o
+.PHONY : prev_biggest_next_tmallest_tests_.cpp.o
+
+prev_biggest_next_tmallest_tests_.i: prev_biggest_next_tmallest_tests_.cpp.i
+
+.PHONY : prev_biggest_next_tmallest_tests_.i
+
+# target to preprocess a source file
+prev_biggest_next_tmallest_tests_.cpp.i:
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f test/homework_tests/CMakeFiles/runBasicTests.dir/build.make test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.i
+.PHONY : prev_biggest_next_tmallest_tests_.cpp.i
+
+prev_biggest_next_tmallest_tests_.s: prev_biggest_next_tmallest_tests_.cpp.s
+
+.PHONY : prev_biggest_next_tmallest_tests_.s
+
+# target to generate assembly for a file
+prev_biggest_next_tmallest_tests_.cpp.s:
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug && $(MAKE) -f test/homework_tests/CMakeFiles/runBasicTests.dir/build.make test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.s
+.PHONY : prev_biggest_next_tmallest_tests_.cpp.s
+
 stack_tests.o: stack_tests.cpp.o
 
 .PHONY : stack_tests.o
@@ -305,6 +332,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... prev_biggest_next_tmallest_tests_.o"
+	@echo "... prev_biggest_next_tmallest_tests_.i"
+	@echo "... prev_biggest_next_tmallest_tests_.s"
 	@echo "... stack_tests.o"
 	@echo "... stack_tests.i"
 	@echo "... stack_tests.s"

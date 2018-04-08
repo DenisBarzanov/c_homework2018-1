@@ -6,5 +6,5 @@ C_FLAGS =  -Wall -std=c11 -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/denis/CLionProjects/c_homework/src 
+C_INCLUDES = 
 

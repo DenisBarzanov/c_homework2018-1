@@ -5,7 +5,13 @@
 #ifndef C_HOMEWORK_XOR_H
 #define C_HOMEWORK_XOR_H
 
+
+#ifndef __cplusplus
 #include <stdlib.h>
+#else
+#include <cstdlib>
+#endif
+
 
 #ifdef __cplusplus
 extern "C" {

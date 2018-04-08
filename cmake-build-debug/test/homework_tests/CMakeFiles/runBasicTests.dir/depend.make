@@ -76,6 +76,31 @@ test/homework_tests/CMakeFiles/runBasicTests.dir/main.cpp.o: ../test/lib/googlet
 test/homework_tests/CMakeFiles/runBasicTests.dir/main.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
 test/homework_tests/CMakeFiles/runBasicTests.dir/main.cpp.o: ../test/homework_tests/main.cpp
 
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-message.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-param-test.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-printers.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-test-part.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-typed-test.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest_pred_impl.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest_prod.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/custom/gtest-port.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-filepath.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-internal.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-param-util.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-port-arch.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-port.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-string.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-tuple.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
+test/homework_tests/CMakeFiles/runBasicTests.dir/prev_biggest_next_tmallest_tests_.cpp.o: ../test/homework_tests/prev_biggest_next_tmallest_tests\ .cpp
+
 test/homework_tests/CMakeFiles/runBasicTests.dir/stack_tests.cpp.o: ../src/stack/stack.h
 test/homework_tests/CMakeFiles/runBasicTests.dir/stack_tests.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
 test/homework_tests/CMakeFiles/runBasicTests.dir/stack_tests.cpp.o: ../test/lib/googletest/googletest/include/gtest/gtest-message.h

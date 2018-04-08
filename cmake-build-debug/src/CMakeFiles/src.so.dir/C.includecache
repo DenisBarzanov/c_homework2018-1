@@ -38,11 +38,13 @@ stdbool.h
 stdlib.h
 -
 
-/home/denis/CLionProjects/c_homework/src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c
+/home/denis/CLionProjects/c_homework/src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c
+stdbool.h
+-
 prevBiggestAndNextSmallest.h
-/home/denis/CLionProjects/c_homework/src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.h
+/home/denis/CLionProjects/c_homework/src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.h
 
-/home/denis/CLionProjects/c_homework/src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.h
+/home/denis/CLionProjects/c_homework/src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.h
 
 /home/denis/CLionProjects/c_homework/src/stack/stack.c
 stdlib.h
@@ -78,5 +80,7 @@ xor.h
 
 /home/denis/CLionProjects/c_homework/src/xor/xor.h
 stdlib.h
+-
+cstdlib
 -
 

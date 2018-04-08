@@ -4,8 +4,8 @@ set(SOURCE_FILES
         xor/xor.h
         unique_chars/unique_chars.c
         unique_chars/unique_chars.h
-        nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c
-        nextSmallest&prevBiggest/prevBiggestAndNextSmallest.h
+        nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c
+        nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.h
         stack/stack.c
         stack/stack.h
         array_stuff/array_stuff.c
@@ -13,6 +13,6 @@ set(SOURCE_FILES
         util/vector.c
         util/vector.h)
 
-add_library(src.so ${SOURCE_FILES})
+add_library(source ${SOURCE_FILES})
 
-target_include_directories (src.so PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories (source PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

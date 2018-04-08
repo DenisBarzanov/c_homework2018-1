@@ -90,7 +90,6 @@ homework_run_EXTERNAL_OBJECTS =
 
 homework_run: CMakeFiles/homework_run.dir/main.c.o
 homework_run: CMakeFiles/homework_run.dir/build.make
-homework_run: src/libsrc.so.a
 homework_run: CMakeFiles/homework_run.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable homework_run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/homework_run.dir/link.txt --verbose=$(VERBOSE)

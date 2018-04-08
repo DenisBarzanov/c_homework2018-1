@@ -62,7 +62,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/homework_run.dir/DependInfo.cmake"
-  "src/CMakeFiles/src.so.dir/DependInfo.cmake"
+  "src/CMakeFiles/source.dir/DependInfo.cmake"
   "test/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   "test/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "test/homework_tests/CMakeFiles/runBasicTests.dir/DependInfo.cmake"

@@ -7,14 +7,22 @@
 #IncludeRegexTransform: 
 
 ../src/array_stuff/array_stuff.h
-util/vector.h
+stdio.h
 -
+stdlib.h
+-
+stdbool.h
+-
+../util/vector.h
+../src/util/vector.h
 
 ../src/game/game.h
 stdbool.h
 -
 stdlib.h
 -
+
+../src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.h
 
 ../src/stack/stack.h
 
@@ -30,6 +38,8 @@ stdlib.h
 
 ../src/xor/xor.h
 stdlib.h
+-
+cstdlib
 -
 
 ../test/lib/googletest/googletest/include/gtest/gtest-death-test.h
@@ -326,6 +336,12 @@ gtest/gtest.h
 
 /home/denis/CLionProjects/c_homework/test/homework_tests/main.cpp
 gtest/gtest.h
+-
+
+/home/denis/CLionProjects/c_homework/test/homework_tests/prev_biggest_next_tmallest_tests .cpp
+gtest/gtest.h
+-
+nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.h
 -
 
 /home/denis/CLionProjects/c_homework/test/homework_tests/stack_tests.cpp

@@ -8,9 +8,9 @@ src/CMakeFiles/src.so.dir/array_stuff/array_stuff.c.o
 src/CMakeFiles/src.so.dir/game/game.c.o
  /home/denis/CLionProjects/c_homework/src/game/game.c
  /home/denis/CLionProjects/c_homework/src/game/game.h
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o
- /home/denis/CLionProjects/c_homework/src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c
- /home/denis/CLionProjects/c_homework/src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.h
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o
+ /home/denis/CLionProjects/c_homework/src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c
+ /home/denis/CLionProjects/c_homework/src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.h
 src/CMakeFiles/src.so.dir/stack/stack.c.o
  /home/denis/CLionProjects/c_homework/src/stack/stack.c
  /home/denis/CLionProjects/c_homework/src/stack/stack.h

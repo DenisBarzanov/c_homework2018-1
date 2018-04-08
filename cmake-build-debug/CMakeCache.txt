@@ -241,6 +241,9 @@ homework_tests_BINARY_DIR:STATIC=/home/denis/CLionProjects/c_homework/cmake-buil
 homework_tests_SOURCE_DIR:STATIC=/home/denis/CLionProjects/c_homework/test
 
 //Dependencies for target
+source_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 src.so_LIB_DEPENDS:STATIC=
 
 

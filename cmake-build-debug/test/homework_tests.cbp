@@ -179,6 +179,9 @@
 		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/main.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>
+		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/prev_biggest_next_tmallest_tests .cpp">
+			<Option target="runBasicTests"/>
+		</Unit>
 		<Unit filename="/home/denis/CLionProjects/c_homework/test/homework_tests/stack_tests.cpp">
 			<Option target="runBasicTests"/>
 		</Unit>

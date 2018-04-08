@@ -5,7 +5,13 @@
 #ifndef C_HOMEWORK_ARRAY_STUFF_H
 #define C_HOMEWORK_ARRAY_STUFF_H
 
-#include <util/vector.h>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+#include "../util/vector.h"
+
 typedef bool (*compare_em_t) (int, int);
 #ifdef __cplusplus
         extern "C" {

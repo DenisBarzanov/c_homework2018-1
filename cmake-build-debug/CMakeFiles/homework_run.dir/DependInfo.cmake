@@ -10,12 +10,10 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../src"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/denis/CLionProjects/c_homework/cmake-build-debug/src/CMakeFiles/src.so.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

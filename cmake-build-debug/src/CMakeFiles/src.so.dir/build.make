@@ -129,28 +129,28 @@ src/CMakeFiles/src.so.dir/unique_chars/unique_chars.c.o.provides: src/CMakeFiles
 src/CMakeFiles/src.so.dir/unique_chars/unique_chars.c.o.provides.build: src/CMakeFiles/src.so.dir/unique_chars/unique_chars.c.o
 
 
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o: src/CMakeFiles/src.so.dir/flags.make
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o: ../src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o"
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o "CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o"   -c "/home/denis/CLionProjects/c_homework/src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c"
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o: src/CMakeFiles/src.so.dir/flags.make
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o: ../src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/denis/CLionProjects/c_homework/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o"
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o   -c /home/denis/CLionProjects/c_homework/src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c
 
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.i"
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/denis/CLionProjects/c_homework/src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c" > "CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.i"
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.i"
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/denis/CLionProjects/c_homework/src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c > CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.i
 
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.s"
-	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/denis/CLionProjects/c_homework/src/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c" -o "CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.s"
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.s"
+	cd /home/denis/CLionProjects/c_homework/cmake-build-debug/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/denis/CLionProjects/c_homework/src/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c -o CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.s
 
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o.requires:
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o.requires:
 
-.PHONY : src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o.requires
+.PHONY : src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o.requires
 
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o.provides: src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o.requires
-	$(MAKE) -f src/CMakeFiles/src.so.dir/build.make "src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o.provides.build"
-.PHONY : src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o.provides
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o.provides: src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o.requires
+	$(MAKE) -f src/CMakeFiles/src.so.dir/build.make src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o.provides.build
+.PHONY : src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o.provides
 
-src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o.provides.build: src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o
+src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o.provides.build: src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o
 
 
 src/CMakeFiles/src.so.dir/stack/stack.c.o: src/CMakeFiles/src.so.dir/flags.make
@@ -230,7 +230,7 @@ src_so_OBJECTS = \
 "CMakeFiles/src.so.dir/game/game.c.o" \
 "CMakeFiles/src.so.dir/xor/xor.c.o" \
 "CMakeFiles/src.so.dir/unique_chars/unique_chars.c.o" \
-"CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o" \
+"CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o" \
 "CMakeFiles/src.so.dir/stack/stack.c.o" \
 "CMakeFiles/src.so.dir/array_stuff/array_stuff.c.o" \
 "CMakeFiles/src.so.dir/util/vector.c.o"
@@ -241,7 +241,7 @@ src_so_EXTERNAL_OBJECTS =
 src/libsrc.so.a: src/CMakeFiles/src.so.dir/game/game.c.o
 src/libsrc.so.a: src/CMakeFiles/src.so.dir/xor/xor.c.o
 src/libsrc.so.a: src/CMakeFiles/src.so.dir/unique_chars/unique_chars.c.o
-src/libsrc.so.a: src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o
+src/libsrc.so.a: src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o
 src/libsrc.so.a: src/CMakeFiles/src.so.dir/stack/stack.c.o
 src/libsrc.so.a: src/CMakeFiles/src.so.dir/array_stuff/array_stuff.c.o
 src/libsrc.so.a: src/CMakeFiles/src.so.dir/util/vector.c.o
@@ -259,7 +259,7 @@ src/CMakeFiles/src.so.dir/build: src/libsrc.so.a
 src/CMakeFiles/src.so.dir/requires: src/CMakeFiles/src.so.dir/game/game.c.o.requires
 src/CMakeFiles/src.so.dir/requires: src/CMakeFiles/src.so.dir/xor/xor.c.o.requires
 src/CMakeFiles/src.so.dir/requires: src/CMakeFiles/src.so.dir/unique_chars/unique_chars.c.o.requires
-src/CMakeFiles/src.so.dir/requires: src/CMakeFiles/src.so.dir/nextSmallest&prevBiggest/prevBiggestAndNextSmallest.c.o.requires
+src/CMakeFiles/src.so.dir/requires: src/CMakeFiles/src.so.dir/nextSmallestAndPrevBiggest/prevBiggestAndNextSmallest.c.o.requires
 src/CMakeFiles/src.so.dir/requires: src/CMakeFiles/src.so.dir/stack/stack.c.o.requires
 src/CMakeFiles/src.so.dir/requires: src/CMakeFiles/src.so.dir/array_stuff/array_stuff.c.o.requires
 src/CMakeFiles/src.so.dir/requires: src/CMakeFiles/src.so.dir/util/vector.c.o.requires

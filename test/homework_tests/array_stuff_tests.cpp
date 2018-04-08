@@ -9,18 +9,18 @@
 class ArrayStuffTests : public ::testing::Test {
 protected:
     vector_t* vector = {};
-    const int biggestEven = 8;
-    const int smallestEven = 2;
+    const int biggestEven = 100;
+    const int smallestEven = 6;
     void SetUp() override {
         vector = newVector();
-        vector_add(vector, 1);
-        vector_add(vector, smallestEven);
+        vector_add(vector, 100);
+        vector_add(vector, 19);
         vector_add(vector, 3);
-        vector_add(vector, 4);
+        vector_add(vector, 7);
         vector_add(vector, 5);
         vector_add(vector, 6);
-        vector_add(vector, 7);
-        vector_add(vector, biggestEven);
+        vector_add(vector, 105);
+        vector_add(vector, 99);
     }
 
     void TearDown() override {
